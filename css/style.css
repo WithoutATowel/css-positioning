@@ -78,9 +78,10 @@ h2 {
 
 footer {
 	padding: 50px 0;
-	font-weight: 2;
 	margin: 50px auto 0;
+	font-weight: 2;
 	font-size: .75em;
+	text-transform: uppercase;
 }
 
 ul {
@@ -95,7 +96,6 @@ li {
 
 a {
 	text-decoration: none;
-	text-transform: uppercase;
 	color: #06365f;
 }
 
