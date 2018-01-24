@@ -8,4 +8,97 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+  text-align: center;
+}
+
+#blueBar {
+	height: 250px;
+	width: 100%;
+    background: linear-gradient(#1c5380, #06365f);
+	background-repeat: repeat-x;
+	position: absolute;
+	top: 0;
+	z-index: -1;	
+}
+
+#container {
+	display: inline-block;
+	position: relative;
+	top: 65px;
+	margin: 0 auto;
+
+}
+
+h2 {
+	color: #06365f;
+}
+
+#right {
+	margin-left: 30px;
+	display: inline-block;
+	text-align: left;
+	position: relative;
+}
+
+#right button img {
+	margin-right: 8px;
+}
+
+#logIn {
+	background: linear-gradient(#1c5380, #0a406d);
+	border: none;
+	border-radius: 2px;
+	box-shadow: 0 0 2px black;
+	color: lightgray;
+	position: absolute;
+	top: 22px;
+	right: 9px;
+	padding: 11px 10px 11px 40px;
+}
+
+#logIn img {
+	position: absolute;
+	top: 6px;
+	left: 10px;
+}
+
+#welcomeContainer {
+	background: url(../img/frame.png);
+	background-repeat: no-repeat;
+	width: 504px;
+}
+
+#welcomeText {
+	padding: 40px;
+}
+
+#welcomeText img {
+	margin: 20px 15px 0 0;
+}
+
+footer {
+	padding: 50px 0;
+	font-weight: 2;
+	margin: 50px auto 0;
+	font-size: .75em;
+}
+
+ul {
+	display: inline;
+}
+
+li {
+	display: inline;
+	list-style: none;
+	padding: 0 10px;
+}
+
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #06365f;
+}
+
+#copyright {
+	color: lightgray;
 }
